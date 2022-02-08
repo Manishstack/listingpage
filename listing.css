@@ -1,0 +1,155 @@
+#body{
+    margin: 0px;
+    padding:0px;
+    background-color: khaki;
+}
+
+#heads{
+    width: 100%;
+    height: 40px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: hotpink;
+
+}
+
+#zomatotext{
+width: 15%;
+height: 20px;
+float: left;
+}
+
+#zomatotext>span{
+position:absolute;
+color: white;
+font-size: 35px;
+font-weight: bold;
+margin-left: 30px;
+
+}
+
+#body1{
+    width: 20%;
+    height: 600px;
+    margin-left: 50px;
+    float: left;
+    margin-top: 50px;
+    border: 3px solid rgb(243, 183, 183);
+    background-color: rgb(248, 245, 217);
+    box-shadow: -2px 3px 5px grey;
+}
+
+#body2{
+    width: 70%;
+    height: 1000px;
+    margin-left: 350px;
+    margin-top: 50px;
+    background-color: rgb(240, 228, 228);
+}
+
+.items{
+    width: 27%;
+    height: 300px;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 20px;
+}
+
+.items:hover{
+    transform: scale(1.07);
+}
+
+.items>span{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    margin-top: 100px;
+}
+
+#footer>span{
+    font-size: 20px;
+    color: white;
+    margin-left: 580px;
+    margin-top: 5%;
+    }
+
+span{
+    font-size: 20px;
+    color: black;
+}
+
+#filter{
+    width: 100%;
+    height:40px;
+    border-bottom: 1px solid gray;
+}
+#filter>span{
+text-align: center;
+color: black;
+opacity: 0.9;
+font-size: 25px;
+margin-left: 100px;
+font-weight: bold;
+margin-top: 50px;
+}
+
+#foodfilter{
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid gray;
+    margin-top: 20px;
+}
+
+#costfilter{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#foodfilter>span{
+    color: black;
+    opacity: 0.9;
+    margin-left: 75px;
+
+}
+
+#costfilter>span{
+    color: black;
+    opacity: 0.9;
+    margin-left: 75px;
+
+}
+
+#footerdiv1{
+    width: 48%;
+    height: 155px;
+    border-right: 2px solid white;
+    float: left;
+    margin-left: 20px;
+
+}
+
+#footerdiv1>span{
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 200px;
+}
+
+#footerdiv2{
+    width: 45%;
+    height: 155px;
+    margin-left: 650px;
+    
+}
+
+#footerdiv2>span{
+    color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 250px;
+}
